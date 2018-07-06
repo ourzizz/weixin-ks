@@ -1,0 +1,64 @@
+
+.pagehead, .uploader, .tunnel {
+    margin-top: 4rpx;
+    height: 140rpx;
+    width: 100%;
+    background: rgba(0, 0, 5, .100);
+    border: 1px solid rgba(0, 0, 0, .10);
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 300ms ease;
+    margin: 1px;
+    
+}
+
+.img {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx;
+    border-radius: 60%;
+    position: relative;
+}
+
+.title
+{
+  margin-left: 45px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px
+}
+
+.moremsg{
+  background: red;
+  height: 50rpx;
+  width:18%;
+  font-size: 10px;
+  border: 1px;
+  margin: 0px;
+  padding: 1px;
+
+  position:absolute;
+  left:80%;
+  top:38%;
+  
+}
+.message
+{
+  margin-top: 4rpx;
+  height: 160rpx;
+  width: 100%;
+  background: #708090;
+  display:flex;
+  flex-direction:row;
+  transition:all 300ms ease;
+  margin:1px;
+  font-size:12px;
+  vertical-align: center;
+}
+.ksmingchen{
+  font-size: 35px;
+  text-align: center;
+}

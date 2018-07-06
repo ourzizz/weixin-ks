@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="pagehead" bindtap="login">
+    <image class="img" src="./kaosheng.png"> </image>
+    <text class="title">创造APP</text>
+  </view>
+
+  <view class="message">
+  <image class="img" src="../../image/lamp.jpg"> </image>
+    <text>最新公告:版德尔乐队 ,这是个消息测试，连通数据库后将显示最新消息 </text>
+    <button class="moremsg">了解更多</button>
+  </view>
+
+  <view class="message">
+  <image class="img" src="../../image/pencil.png"> </image>
+    <text class="ksmingchen">状元秀 </text>
+  </view>
+
+   <view class="message">
+  <image class="img" src="../../image/pencil.png"> </image>
+    <text class="ksmingchen">银牌 </text>
+  </view>
+
+   <view class="message">
+  <image class="img" src="../../image/pencil.png"> </image>
+    <text class="ksmingchen">铜牌 </text>
+  </view>
+
+   <view class="message">
+  <image class="img" src="../../image/pencil.png"> </image>
+    <text class="ksmingchen">参与抽奖test </text>
+  </view>
+
+  <text>{{ msg }}</text>
+  <button bindtap='clickMe'>点击我</button>
+</view>
