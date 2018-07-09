@@ -1,18 +1,26 @@
 // pages/message/message.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-  
+ // phptest: "F1"
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-  
+  onLoad: function () {
+    let that=this;
+    wx.request({
+      url: 'https://www.alemao.club/weapp/wxphptest.php',
+      data: {phptest:''},
+      header: {
+        "Content-Type": "applciation/json"
+      },
+      method: 'GET',
+      success: function(res) {
+        that.setData({ phptest: res.data.msg })
+      },
+    })
+    
   },
 
   /**

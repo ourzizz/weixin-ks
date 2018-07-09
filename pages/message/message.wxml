@@ -1,2 +1,2 @@
 <!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<text bindtap='onLoad'>当前数据： {{phptest}}</text>

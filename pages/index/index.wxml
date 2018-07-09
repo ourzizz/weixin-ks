@@ -5,7 +5,7 @@
     <text class="title">毕节考试直通车</text>
   </view>
 
-  <view class="message">
+  <view class="note">
     <!--image class="img" src="../../image/lamp.jpg"> </image-->
     <text>最新公告: 这是消息测试，连通数据库后将显示最新消息. 这是消息测试，连通数据库后将显示最新消息 </text>
     <navigator url="../message/message" open-type="navigate">
