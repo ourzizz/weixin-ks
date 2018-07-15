@@ -1,16 +1,19 @@
 <!--pages/kaoshi/kaoshi.wxml-->
 <view class="container">
+    <view class="msgcontainer">
+        <text class="msgtitle">最新公告：</text>
+        <view class="msgnote">
+            <view>{{list.message[1].msgcontent}}*发布时间*:{{list.message[1].pubtime}}</view>
+        </view>
+    </view>
 
-<view class="note">
-<text >本考试最新公告：</text>
-  <view>{{list.message[0].msgcontent}}</view>
-  <view>{{list.message[0].pubtime}}</view>
-  </view>
-
-  <text class="title">近期文件：</text>
-  <view class="message" wx:for="{{list.ksfile}}" wx:key="list.ksfile">
-    <navigator class="navigation" url="../out/out?webaddress={{item.webaddress}}">
-      <view>{{item.filename}}:{{item.pubtime}}</view>
-    </navigator>
-  </view>
+    <view class="filecontainer">
+        <text class="filetitle">近期文件：</text>
+        <!--view class="note" wx:for="{{list.ksfile}}" wx:key="list.ksfile"-->
+        <view class="note" wx:for="{{list.ksfile}}" wx:key="list">
+            <navigator class="navigation" url="../out/out?webaddress={{item.webaddress}}">
+            <view>{{item.filename}}:{{item.pubtime}}</view>
+            </navigator>
+        </view>
+    </view>
 </view>

@@ -6,51 +6,50 @@
   </view>
 
   <view class="note">
-    <!--image class="img" src="../../image/lamp.jpg"> </image-->
-    <text>公告栏：{{content.title}}</text>
     <navigator url="../message/message" open-type="navigate">
-    <button class="moremsg">了解更多</button>
+    <text>公告栏：{{content.title}}</text>
+    <!--button class="moremsg">了解更多</button-->
     </navigator>
   </view>
 
-  <view class="message">  
+  <view class="ksbar">  
     <navigator url="../kaoshi/kaoshi?ksid=gwyks" open-type="navigate" class="navigation">  
     <image class="img" src="../../image/bjks.png"> </image>
       <text class="ksmingchen">18省直公务员考试 </text>
     </navigator>
   </view>
 
-  <view class="message" >
+  <view class="ksbar" >
     <navigator url="../kaoshi/kaoshi?ksid=sydwlk" open-type="navigate" class="navigation">  
     <image class="img" src="../../image/kemu.png" bindtap="click"> </image>
     <text class="ksmingchen">事业单位招聘考试 </text>
     </navigator>
   </view>
 
-  <view class="message">
+  <view class="ksbar">
     <navigator url="../kaoshi/kaoshi?ksid=jjs" open-type="navigate" class="navigation">  
     <image class="img" src="../../image/jingjishi2.png"> </image>
     <text class="ksmingchen">经济师职称考试 </text>
     </navigator>
   </view>
 
-  <view class="message">
+  <view class="ksbar">
     <navigator url="../kaoshi/kaoshi?ksid=jsj" open-type="navigate" class="navigation">  
     <image class="img" src="../../image/jisuanji.png"> </image>
     <text class="ksmingchen">计算机应用能力 </text>
     </navigator>
   </view>
 
-  <view class="message">
+  <view class="ksbar">
     <navigator url="../kaoshi/kaoshi?ksid=kjs" open-type="navigate" class="navigation">  
-    <image class="img" src="../../image/kuaiji2.png"> </image>
+    <image class="img" src="../../image/kjs.png"> </image>
     <text class="ksmingchen">会计师职称考试 </text>
     </navigator>
   </view>
 
-  <view class="message">  
+  <view class="ksbar">  
     <navigator url="../kaoshi/kaoshi?ksid=szyf" open-type="navigate" class="navigation">  
-    <image class="img" src="../../image/bjks.png"> </image>
+    <image class="img" src="../../image/szyf.png"> </image>
       <text class="ksmingchen">18三支一扶考试 </text>
     </navigator>
   </view>

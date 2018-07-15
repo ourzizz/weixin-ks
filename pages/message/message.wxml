@@ -1,6 +1,8 @@
 <!--pages/message/message.wxml-->
-<view class="container" wx:for="{{list}}" wx:key="list">
+<view class="container">
+<view class="note" wx:for="{{list}}" wx:key="list">
 <navigator class="test-item" url="../out/out?webaddress={{item.webaddress}}">
   <view>{{item.pubtime}}:{{item.msgcontent}}</view>
     </navigator>
+</view>
 </view>

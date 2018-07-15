@@ -1,13 +1,18 @@
-.container {
+.container,.note {
   width: 100%;
-  padding: 20rpx 20rpx 20rpx 0;
+  padding: 1rpx 0rpx 0rpx 1rpx; /*上右*/
   display: flex;
   align-content: center;
   justify-content: center;
   box-sizing: border-box;
+  background: #660033;
+}
+.note{ /*局部覆盖总体*/
+  background: #009933;
+  font-size: 13px;
 }
 
-.pagehead, .uploader, .tunnel {
+.pagehead, .uploader, .tunnel { /*毕节考试直通车page头显示*/
   margin-top: 4rpx;
   height: 140rpx;
   width: 100%;
@@ -68,7 +73,7 @@
   vertical-align: center;/**/
 }
 
-.message,.note { /**/
+.ksbar { /**/
   margin-top: 4rpx;
   height: 140rpx;
   width: 100%;
@@ -82,7 +87,4 @@
   font-size: 12px;
   vertical-align: center;
   border-radius: 2%;
-}
-.note{
-  background: #009933;
 }
