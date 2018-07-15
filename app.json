@@ -1,13 +1,15 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/message/message"
+    "pages/message/message",
+    "pages/out/out",
+    "pages/kaoshi/kaoshi"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "毕节考试",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }

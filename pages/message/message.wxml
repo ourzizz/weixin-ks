@@ -1,2 +1,6 @@
 <!--pages/message/message.wxml-->
-<text bindtap='onLoad'>当前数据： {{phptest}}</text>
+<view class="container" wx:for="{{list}}" wx:key="list">
+<navigator class="test-item" url="../out/out?webaddress={{item.webaddress}}">
+  <view>{{item.pubtime}}:{{item.msgcontent}}</view>
+    </navigator>
+</view>
