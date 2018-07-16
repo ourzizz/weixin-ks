@@ -3,7 +3,7 @@
     <view class="msgcontainer">
         <text class="msgtitle">最新公告：</text>
         <view class="msgnote">
-            <view>{{list.message[1].msgcontent}}*发布时间*:{{list.message[1].pubtime}}</view>
+            <view>{{list.message[0].msgcontent}}*发布时间*:{{list.message[1].pubtime}}</view>
         </view>
     </view>
 

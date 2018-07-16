@@ -7,7 +7,7 @@ Page({
     var that = this
     wx.request({
        //url: 'https://www.alemao.club/json/kaoshipage/gwyks.json',
-       url: 'https://www.alemao.club/json/kaoshipage/'+options.ksid+".json",
+       url: 'https://www.alemao.club/weapp/json/pages/'+options.ksid+".json",
        headers: {
           'Content-Type': 'application/json'
       },

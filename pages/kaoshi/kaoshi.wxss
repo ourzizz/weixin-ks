@@ -1,13 +1,14 @@
 /* pages/kaoshi/kaoshi.wxss */
-.container,.note {/*页面元素紧挨着摆放*/
+/*页面元素紧挨着摆放*/
+.container,.note {
   width: 100%;
   padding: 1rpx 0rpx 0rpx 1rpx; /*上右*/
-  display: flex;
+  display: relative;
   align-content: center;
   justify-content: center;
   box-sizing: border-box;
    margin-top: 4rpx;
-   border-radius: 2%;
+   border-radius: 3%;
   background: black;
 
 }
@@ -19,43 +20,35 @@
 .msgcontainer{
   width: 100%;
   padding: 0rpx 0rpx 0rpx 1rpx; /*上右*/
-  display: flex;
   align-content: center;
   justify-content: center;
   box-sizing: border-box;
   margin-top: 4rpx;
   border-radius: 2%;
-  background: red;
+  background: #243949; /*这个颜色做底色很好看*/
 }
-.msgtitle{
-  color: white;
+.msgtitle,.filetitle{
+  color: gold;
   padding: 0rpx 0rpx 0rpx 1rpx; /*上右*/
   position: flex;
-  /*position: absolute;*/
-  /*left: 8%;[>调整了解更多按钮，相对于整个页面的纵向和横向坐标位置<]*/
-  /*top: 10%;*/
 }
+/*.filetitle*/
+/*{*/
+  /*color: black;*/
+/*}*/
 .msgnote{
   display: flex;
   padding: 2rpx 0rpx 0rpx 1rpx; /*上右*/
   background: #1291A9;
 }
 
-/*.filecontainer{*/
-  /*width: 100%;*/
-  /*padding: 0rpx 0rpx 0rpx 1rpx; [>上右<]*/
-  /*display: flex;*/
-  /*align-content: center;*/
-  /*justify-content: center;*/
-  /*box-sizing: border-box;*/
-  /*margin-top: 4rpx;*/
-  /*border-radius: 2%;*/
-  /*background: red;*/
-/*}*/
-.filetitle {
-  margin-left: 45px;
-  color: red;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: Serif  ;
+.filecontainer{
+  width: 100%;
+  padding: 0rpx 0rpx 0rpx 1rpx; /*上右*/
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 4rpx;
+  border-radius: 2%;
+  background: #243949; /*这个颜色做底色很好看*/
 }
