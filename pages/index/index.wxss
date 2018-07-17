@@ -9,6 +9,9 @@
 }
 .note{ /*局部覆盖总体*/
   background: #009933;
+  background: #009933;
+  background-image: url('../images/background.jpg');
+  display: flex;
   font-size: 13px;
 }
 
@@ -75,7 +78,7 @@
 
 .ksbar { /**/
   margin-top: 4rpx;
-  height: 140rpx;
+  height: 130rpx;
   width: 100%;
   /*background: #5f9ea0;*/
   background: #517fa4; /*还可以*/
