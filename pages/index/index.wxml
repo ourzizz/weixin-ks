@@ -15,7 +15,8 @@
 
   <view class="ksbar" wx:for="{{homepage.kslist}}">
     <navigator url="../kaoshi/kaoshi?ksid={{item.ksid}}" open-type="navigate" class="navigation">  
-    <image class="img" src="../../image/{{item.ksid}}.png"> </image>
+    <!--image class="img" src="../../image/{{item.ksid}}.png"> </image-->
+    <image class="img" src="https://www.alemao.club/weapp/images/{{item.ksid}}.png"> </image>
       <text class="ksmingchen">{{item.ksname}} </text>
     </navigator>
   </view>

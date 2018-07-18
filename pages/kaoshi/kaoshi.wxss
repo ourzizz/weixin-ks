@@ -32,17 +32,8 @@
   padding: 0rpx 0rpx 0rpx 1rpx; /*上右*/
   position: flex;
 }
-/*.filetitle*/
-/*{*/
-  /*color: black;*/
-/*}*/
-.msgnote{
-  display: flex;
-  padding: 2rpx 0rpx 0rpx 1rpx; /*上右*/
-  background: #1291A9;
-}
 
-.filecontainer{
+.filecontainer,.msgnote{
   width: 100%;
   padding: 0rpx 0rpx 0rpx 1rpx; /*上右*/
   align-content: center;
@@ -51,4 +42,10 @@
   margin-top: 4rpx;
   border-radius: 2%;
   background: #243949; /*这个颜色做底色很好看*/
+}
+
+.msgnote{
+  display: flex;
+  padding: 2rpx 0rpx 0rpx 1rpx; /*上右*/
+  background: #1291A9;
 }
